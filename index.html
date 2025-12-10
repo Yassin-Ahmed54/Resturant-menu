@@ -49,39 +49,38 @@
         </div> <!--food-img-->
     </section> <!--section2-->
     <!--------------------------------------SECTION3-------------------------------------------------->
-    <section class="pasta">
-        <h2 class="special">Our Special Offers</h2>
-        <p class="exp2">More That 25+ years Experiancs</p>
-        <div class="container-c">
-        <div class="circle1">
-            <img class="img-c" src="Images/offer1.png" alt="">
-            <h3>Quattro Pasta</h3>
-            <p class="p5">Lorem ipsum dolor sit amet consectetur</p>
-            <div class="prices">
-                <span class="price1">$55.00</span>
-                <span class="price2">$18.00</span>
-            </div>
-        </div>
-        <div class="circle2">
-            <img class="img-c" src="Images/offer2.png" alt="">
-            <h3>Vegeterian Pasta</h3>
-            <p class="p5">Lorem ipsum dolor sit amet, consectetur </p>
-            <div class="prices">
-                <span class="price1">$55.00</span>
-                <span class="price2">$18.00</span>
-            </div>
-        </div>
-        <div class="circle3">
-            <img class="img-c" src="Images/offer3.png" alt="">
-            <h3>Gluten-free pasta</h3>
-            <p class="p5">Lorem ipsum dolor sit amet.</p>
-            <div class="prices">
-                <span class="price1">$55.00</span>
-                <span class="price2">$18.00</span>
-            </div>
-        </div>
-        </div>
-    </section> <!--Pasta-->
+        <div id="cont1" class="container">
+        <h2>Our special offers</h2>
+        <p class="p1">More than 25+ years of Experience</p>
+        <img src="Images/food1.png" alt="">
+        <h3>Vegiterian Pasta</h3>
+        <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, hic.</p>
+        <p class="p3">55$</p>
+        <button id="right1">></button>
+        <button id="left1"><</button>
+    </div><!--container-->
+
+    <div id="cont2" class="cont2">
+        <h2>Our special offers</h2>
+        <p class="p1">More than 25+ years of Experience</p>
+        <img src="Images/food2.png" alt="">
+        <h3>italian Pasta</h3>
+        <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, hic.</p>
+        <p class="p3">98$</p>
+        <button id="right2">></button>
+        <button id="left2"><</button>
+    </div><!--cont2-->
+
+    <div id="cont3" class="last-cont">
+        <h2>Our special offers</h2>
+        <p class="p1">More than 25+ years of Experience</p>
+        <img src="Images/food5.png" alt="">
+        <h3>Dountes</h3>
+        <p class="p2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur, hic.</p>
+        <p class="p3">7$</p>
+        <button id="right3">></button>
+        <button id="left3"><</button>
+    </div><!--last-cont-->
     <!--------------------------------------SECTION4-------------------------------------------------->
     <div class="title2">
         <h2 class="h2-3">Our Special Menu</h2>
@@ -289,6 +288,16 @@
     </section>
     <!------------------------------------------SECTION6------------------------------------------------>
     <section class="section6">
+        <div class="overlay">
+            <button class="btn-left">></button>
+            <button class="btn-right"><</button>
+            <img class="img1" src="./Images/gallery1.jpeg" alt="">
+            <img id="img2" class="img1" src="./Images/gallery2.jpeg" alt="">
+            <img id="img3" class="img1" src="./Images/gallery3.jpeg" alt="">
+            <img id="img4" class="img1" src="./Images/gallery4.jpeg" alt="">
+            <img id="img5" class="img1" src="./Images/gallery5.jpeg" alt="">
+            <img id="img6" class="img1" src="./Images/gallery6.jpeg" alt="">
+        </div>
         <div class="container">
             <h2>Our Food Gallery</h2>
             <div class="img-gallery">
@@ -302,7 +311,7 @@
         </div><!-- container -->
     </section><!--section6-->
     <!------------------------------------------SECTION7---------------------------------------------------->
-    <section class="section7">
+     <section class="section7">
         <div class="info">
             <h2>Adress</h2>
             <p><i class="fa-solid fa-location-dot"></i>Alexndreia Beside Stadium Egypt</p>
@@ -318,11 +327,15 @@
         </div><!--info-->
         <div class="data-entry">
             <form>
-                <input placeholder="Full Name" type="text">
-                <input placeholder="Email Adress" type="email">
-                <input placeholder="Subject" type="text">
-                <textarea placeholder="Massage" rows="7"></textarea>
-                <button class="btn4" type="reset">Send Massage</button>
+                <input placeholder="Full Name" id="in1" type="text">
+                <p id="p-in1"></p>
+                <input id="in2" placeholder="Email Adress" type="email">
+                <p id="p-in2"></p>
+                <input id="in3" placeholder="Subject" type="text">
+                <p id="p-in3"></p>
+                <textarea id="in4" placeholder="Massage" rows="7"></textarea>
+                <p id="p-in4"></p>
+                <button id="btn4" type="button">Send Massage</button>
             </form>
         </div><!--data-entry-->
     </section>
@@ -330,5 +343,6 @@
     <footer>
         <p class="p-footer">Copyright © 2025 All rights are reversed designed by <span>Yassin Ahmed</span></p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
