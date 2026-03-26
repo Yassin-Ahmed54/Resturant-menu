@@ -19,8 +19,8 @@ document.getElementById("right2").addEventListener("click", ()=>{
 document.getElementById("left3").addEventListener("click", ()=>{
     cont3.style.display = "none";
     cont2.style.display = "flex";
-}); 
-//--------------------------
+});
+// ---------------------------------
 const in1=document.getElementById("in1")
 const p1=document.getElementById("p-in1")
 const button=document.getElementById("btn4")
